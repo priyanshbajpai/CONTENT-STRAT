@@ -2,7 +2,7 @@
 
 A working research workspace for FMCG brand strategy, food product R&D, ingredient exploration, content ideas, and market-facing concept development.
 
-This repo is meant to stay synced with the Codex chat workspace. The chat can run food models and generate research outputs; this repo stores the repeatable playbooks, source maps, prompts, and deliverables.
+This repo is the durable strategy layer. The Codex chat workspace is the live model execution layer.
 
 ## What This Workspace Is For
 
@@ -13,19 +13,25 @@ This repo is meant to stay synced with the Codex chat workspace. The chat can ru
 - Sauce, snack, beverage, condiment, ready-to-cook, and packaged food ideation
 - Prototype formulation briefs and tasting hypotheses
 - Competitive/white-space research notes
+- Retail, QSR, and content strategy development
 
-## Active Model Stack In Chat
+## Active Local Model Stack In Chat
 
-- Epicure Explorer embeddings: ingredient pairings, substitutions, chemistry neighbours, cuisine shifts
+- Epicure Explorer: ingredient pairings, substitutions, chemistry neighbours, cuisine shifts
 - RecipeBERT: recipe-space plausibility and similarity scoring
-- flax-community/t5-recipe-generation: recipe/prototype generation candidate
+- T5 Recipe Generation: rough recipe/prototype generation from ingredient stacks
+
+## Registered Research Sources
+
 - FoodSky/FoodEarth: food-domain LLM and food corpus reference
-- Global Gastronomic Culinary Dataset: global cuisine/food detection reference
+- Global Gastronomic Culinary Dataset: global cuisine/category reference
 - Open Food Facts recipe-estimator-metrics: ingredient percentage estimation evaluation framework
 
 ## Core Docs
 
 - [FMCG Research OS](docs/FMCG_RESEARCH_OS.md)
+- [Model Stack](docs/MODEL_STACK.md)
+- [Workspace Guide](docs/WORKSPACE_GUIDE.md)
 - [Source Map](docs/SOURCE_MAP.md)
 - [Research Prompts](docs/RESEARCH_PROMPTS.md)
 
@@ -43,4 +49,5 @@ This repo is meant to stay synced with the Codex chat workspace. The chat can ru
 - Compare global fusion condiment ideas for QSR use.
 - Create a launch content strategy for a new FMCG sauce brand.
 - Build a tasting panel brief for 5 product variants.
+- Use T5 to turn an ingredient stack into rough prototype directions.
 - Find substitutes for expensive ingredients while preserving flavour direction.
