@@ -1,0 +1,26 @@
+# Local model/runtime artifacts
+work/
+outputs/
+*.safetensors
+*.bin
+*.msgpack
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Raw scratch outputs
+*.tmp
+*.log
