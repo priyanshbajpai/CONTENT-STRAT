@@ -41,12 +41,17 @@ Current status:
 
 Source: https://huggingface.co/flax-community/t5-recipe-generation
 
-Use for prototype recipe generation from ingredient lists.
+Use for rough prototype recipe generation from ingredient lists.
+
+Current status:
+- Live in the Codex chat workspace.
+- Minimal local inference files cached under `work/model-cache/t5-recipe-generation`.
 
 Notes:
 - Hugging Face describes it as a T5/text2text-generation recipe model.
 - The model card references RecipeNLG as the dataset base, with over 2 million recipes.
 - Useful after Epicure suggests ingredient stacks and RecipeBERT ranks them.
+- Outputs should be treated as test-kitchen inspiration, not final FMCG formulation.
 
 Potential workflow:
 1. Generate concept ingredients with Epicure.
