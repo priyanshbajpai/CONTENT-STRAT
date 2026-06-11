@@ -1,6 +1,15 @@
 # Local model/runtime artifacts
-work/
-outputs/
+!work/
+work/*
+!work/brand-assets/
+work/brand-assets/*
+!work/brand-assets/BRAND_TYPE_SYSTEM.md
+!work/brand-assets/brand_tokens.json
+!outputs/
+outputs/*
+!outputs/00-marcha-system/
+outputs/00-marcha-system/*
+!outputs/00-marcha-system/*.md
 *.safetensors
 *.bin
 *.msgpack

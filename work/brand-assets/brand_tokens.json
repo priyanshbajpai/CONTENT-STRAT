@@ -1,0 +1,63 @@
+{
+  "typography": {
+    "display": {
+      "fontFamily": "Paquito",
+      "localNames": ["Paquito-Bold", "Paquito-Variable"],
+      "weights": [650, 700],
+      "use": "carousel covers, product concept names, big hooks"
+    },
+    "subhead": {
+      "fontFamily": "Paquito",
+      "localNames": ["Paquito-Regular", "Paquito-Medium"],
+      "weights": [400, 500],
+      "use": "short subtitles and editorial labels"
+    },
+    "body": {
+      "fontFamily": "Inter or DM Sans",
+      "weights": [400, 600],
+      "use": "readable carousel body text, captions, small labels"
+    }
+  },
+  "colors": {
+    "deepTeal": "#0F6F78",
+    "cream": "#FFF4D8",
+    "chilliRed": "#D7382F",
+    "turmericYellow": "#F2B544",
+    "ink": "#17120F"
+  },
+  "layout": {
+    "cover": "large Paquito headline, small subhead, food/product visual, handle, page number",
+    "tone": "premium editorial Indian food lab",
+    "textIntegration": "text sits directly in negative space as part of the image composition; avoid filled text blocks, sticker labels, and button-like CTAs",
+    "productionOutput": "generate clean visual slides without text; provide separate matching text placement guides and exact copy for the user to add manually",
+    "pixelValidation": {
+      "carousel": "1080x1350",
+      "singleImage": "1080x1350",
+      "reel": "1080x1920",
+      "story": "1080x1920"
+    }
+  },
+  "imageStyle": {
+    "medium": "contemporary studio commercial food photography",
+    "references": "1970s hard-flash cookbook documentation and modern pop-art food minimalism",
+    "lighting": "hard direct flash or direct sun, crisp dark shadows",
+    "composition": "minimal isolated subject with generous negative space for typography",
+    "camera": "50mm to 85mm lens feel, deep focus, extremely sharp edges",
+    "backgrounds": ["solid matte deep teal", "solid matte cream", "solid matte chilli red", "solid matte turmeric yellow"],
+    "subjects": ["food hero close-up", "ingredient still life", "faceless hand action", "sauce pour", "dip", "drizzle", "mock product poster"],
+    "constraints": ["no generated text", "no logos", "no watermarks", "no cluttered kitchens", "no soft blur", "vegetarian-first", "India-available ingredients"],
+    "realismGate": "food must look exactly as if made in reality, with believable texture, colour, viscosity, gloss, portion size, spice flecks, oil sheen, crispness, and ingredient identity"
+  },
+  "researchGate": {
+    "requiredBeforeConcepts": true,
+    "checks": ["current internet trends", "Indian FMCG signals", "quick-commerce behaviour", "Gen Z food behaviour", "sauce and condiment launches", "healthy-ish and high-protein trends", "social content formats"],
+    "decisionCriteria": ["cultural relevance", "India-available ingredients", "real product potential", "visual believability", "save/share/comment potential"]
+  },
+  "textPlacementSpecs": {
+    "required": ["font family", "font size px", "font color hex", "font style", "font effects", "placement zone"],
+    "display": {"fontFamily": "Paquito", "style": "Bold", "sizePx": "64-92", "effects": "none by default"},
+    "subhead": {"fontFamily": "Paquito", "style": "Regular", "sizePx": "28-38", "effects": "none by default"},
+    "body": {"fontFamily": "Clean sans-serif", "style": "Regular or Semibold", "sizePx": "22-30", "effects": "none by default"},
+    "microcopy": {"fontFamily": "Clean sans-serif", "style": "Regular", "sizePx": "14-20", "effects": "none by default"}
+  }
+}

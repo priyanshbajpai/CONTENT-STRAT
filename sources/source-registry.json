@@ -1,0 +1,64 @@
+{
+  "purpose": "Durable source registry for FMCG-OS and Marcha",
+  "canonical_sources": {
+    "marcha_source_bank": "MARCHA_SOURCE_BANK.md",
+    "thread_starter": "FMCG_OS_THREAD_STARTER.md",
+    "marcha_system": "outputs/00-marcha-system",
+    "source_library": "sources"
+  },
+  "active_local_models": {
+    "epicure": {
+      "status": "live",
+      "uses": ["ingredient pairings", "substitutions", "chemistry neighbours", "cuisine shifts"],
+      "local_cache": "work/model-cache"
+    },
+    "recipebert": {
+      "status": "live",
+      "uses": ["recipe-space plausibility", "concept similarity", "variant ranking"],
+      "local_environment": "work/flavorforge-venv"
+    },
+    "t5_recipe_generation": {
+      "status": "live",
+      "source": "https://huggingface.co/flax-community/t5-recipe-generation",
+      "uses": ["rough recipe/prototype generation from ingredient lists", "first-pass preparation direction"],
+      "local_cache": "work/model-cache/t5-recipe-generation"
+    }
+  },
+  "candidate_sources": {
+    "foodsky": {
+      "github": "https://github.com/LanceZPF/FoodSky",
+      "zenodo": "https://zenodo.org/records/14892842",
+      "paper": "https://arxiv.org/abs/2406.10261",
+      "uses": ["food-domain LLM/corpus reference", "food Q&A benchmark inspiration"],
+      "status": "candidate; review licensing/access before commercial use"
+    },
+    "global_gastronomic_culinary_dataset": {
+      "github": "https://github.com/IS2AI/Global-Gastronomic-Culinary-Dataset",
+      "uses": ["global cuisine/category reference", "visual food category research"],
+      "status": "candidate"
+    },
+    "recipe_estimator_metrics": {
+      "github": "https://github.com/openfoodfacts/recipe-estimator-metrics",
+      "uses": ["ingredient percentage estimation evaluation", "formulation metric inspiration"],
+      "status": "candidate"
+    }
+  },
+  "github_sync": {
+    "repo": "priyanshbajpai/FOOD-INTELLIGENCE-OS",
+    "branch": "main",
+    "tracked_durable_paths": [
+      "MARCHA_SOURCE_BANK.md",
+      "FMCG_OS_THREAD_STARTER.md",
+      "sources/",
+      "outputs/00-marcha-system/",
+      "work/brand-assets/BRAND_TYPE_SYSTEM.md",
+      "work/brand-assets/brand_tokens.json"
+    ],
+    "local_only_paths": [
+      "work/model-cache/",
+      "work/hf-cache/",
+      "work/flavorforge-venv/",
+      "generated output folders under outputs/"
+    ]
+  }
+}

@@ -36,6 +36,20 @@ Before creating any Marcha concept, carousel, reel, single image, product idea, 
 - [Marcha Source Bank](MARCHA_SOURCE_BANK.md)
 - [FMCG-OS Thread Starter](FMCG_OS_THREAD_STARTER.md)
 - [Marcha System Docs](docs/marcha-system/README.md)
+- [Marcha System Output Mirror](outputs/00-marcha-system/README.md)
+- [Source Library](sources/source-registry.json)
+
+## Source Library
+
+The `sources/` folder separates durable source references by type:
+
+- `models.md` - local and candidate model stack
+- `datasets.md` - dataset and corpus references
+- `github-repos.md` - primary and external GitHub repositories
+- `research-links.md` - research URLs and Marcha research gate
+- `visual-references.md` - Marcha image style references
+- `fonts-and-brand.md` - typography, colours, and brand rules
+- `source-registry.json` - machine-readable source registry
 
 ## Core Docs
 
