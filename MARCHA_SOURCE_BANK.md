@@ -141,9 +141,22 @@ Local font source:
 Color usage:
 
 - Use 3 strong colors per post max.
-- Each post should usually have one dominant background color, one food-led accent color, and one text color.
+- Use one solid matte background colour per slide. Do not use dual-colour, split, half-and-half, curved-block, or multi-panel backgrounds.
+- Different slides in the same carousel may use different Marcha brand colours, as long as each individual slide keeps one clean background colour.
+- Each slide should usually have one dominant background color, one food-led accent color, and one text color.
 - Keep the grid mixed but branded.
 - Prefer matte backgrounds, not gradients.
+- The cover image for every content pillar should have its own recurring background colour so the pillar is recognizable in the grid.
+
+Pillar cover colour map:
+
+- Not Ketchup: Chilli Red `#D7382F`
+- India-Available Fusion: Turmeric Yellow `#F2B544`
+- Pantry To Product: Deep Teal `#0F6F78`
+- Healthy But Not Sad: Cream `#FFF4D8`
+- The Chutney Matrix: Ink Black `#17120F`
+- One Sauce, Five Foods: Deep Teal `#0F6F78`
+- Food Hero Shots: rotate one solid brand colour based on the hero food, never dual-colour.
 
 ## Fixed Aspect Ratios
 
@@ -437,8 +450,11 @@ Before generating any food visual, define:
 - what the food is made of
 - what the sauce thickness should be
 - exact food color
+- exact food shape and structure
+- viscosity and flow behavior
 - gloss level
 - spice/herb texture
+- surface detail, grain size, bubbles, oil separation, crispness, char, or crumble where relevant
 - likely plating and portion
 - how it would physically behave during pouring/dipping
 
@@ -446,6 +462,8 @@ Prompt should include:
 
 - thick / pourable / glossy / chunky / creamy / roasted / charred / crisp / fresh
 - actual color notes
+- shape and structure notes
+- viscosity notes such as spoonable, pourable ribbon, slow drip, spreadable, set, airy, crumbly, or crunchy
 - oil sheen
 - spice flecks
 - seed texture
@@ -457,6 +475,7 @@ Reject or regenerate if:
 
 - sauce looks plastic
 - food color is impossible
+- texture, shape, or viscosity does not match the ingredients
 - object anatomy is wrong
 - hand gesture is broken
 - food does not match the copy
@@ -500,7 +519,7 @@ Also update:
 Use this base for Marcha image generation:
 
 ```text
-Premium contemporary studio food photography for Marcha, a modern Indian food lab. Hard direct flash lighting, crisp dark shadows, extremely sharp edges, deep focus, high-saturation color blocking, solid matte background in Marcha brand colors, minimalist composition with generous negative space reserved for typography. Close-up edible vegetarian food action, realistic tactile food texture, fresh Indian pantry ingredients, modern global-fusion presentation using ingredients available in India. The food must look exactly as if it was made in reality: believable colour, portion, viscosity, gloss, spice flecks, oil sheen, herb texture, toasted or crisp edges where relevant. 50mm to 85mm lens feel, clean white balance, high local contrast, no haze, no grain, no blur. No text, no logo, no watermark, no packaging words.
+Premium contemporary studio food photography for Marcha, a modern Indian food lab. Hard direct flash lighting, crisp dark shadows, extremely sharp edges, deep focus, high-saturation color blocking, one solid matte background in a Marcha brand colour, minimalist composition with generous negative space reserved for typography. Do not use dual-colour, split, half-and-half, curved-block, gradient, or multi-panel backgrounds. Close-up edible vegetarian food action, realistic tactile food texture, fresh Indian pantry ingredients, modern global-fusion presentation using ingredients available in India. The food must look exactly as if it was made in reality: believable colour, shape, structure, portion, viscosity, gloss, spice flecks, oil sheen, herb texture, toasted or crisp edges where relevant. Name the food's texture and viscosity precisely: spoonable, pourable ribbon, slow drip, spreadable, set, airy, crumbly, crunchy, or crisp. 50mm to 85mm lens feel, clean white balance, high local contrast, no haze, no grain, no blur. No text, no logo, no watermark, no packaging words.
 ```
 
 ## How Future Threads Should Start

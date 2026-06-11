@@ -27,6 +27,20 @@ Local font notes:
 - Turmeric Yellow: `#F2B544`
 - Ink Black: `#17120F`
 
+Background rules:
+
+- Use one solid matte background colour per slide.
+- Do not use dual-colour backgrounds, split backgrounds, curved colour blocks, gradients, or multi-panel fields.
+- Different slides in the same carousel may use different Marcha brand colours.
+- Cover slides should use the assigned pillar colour:
+  - Not Ketchup: Chilli Red `#D7382F`
+  - India-Available Fusion: Turmeric Yellow `#F2B544`
+  - Pantry To Product: Deep Teal `#0F6F78`
+  - Healthy But Not Sad: Cream `#FFF4D8`
+  - The Chutney Matrix: Ink Black `#17120F`
+  - One Sauce, Five Foods: Deep Teal `#0F6F78`
+  - Food Hero Shots: rotate one solid brand colour based on the hero food.
+
 ## Format Rules
 
 - Carousel: `1080 x 1350`

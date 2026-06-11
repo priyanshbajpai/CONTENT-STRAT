@@ -171,7 +171,7 @@ Avoid:
 Use this base for Marcha visual generation, then change only the subject and format:
 
 ```text
-Premium contemporary studio food photography for Marcha, a modern Indian food lab. Hard direct flash lighting, crisp dark shadows, extremely sharp edges, deep focus, high-saturation color blocking, solid matte background in Marcha brand colors, minimalist composition with generous negative space reserved for typography. Close-up edible vegetarian food action, realistic tactile food texture, fresh Indian pantry ingredients, modern global-fusion presentation using ingredients available in India. The food must look exactly as if it was made in reality: believable colour, portion, viscosity, gloss, spice flecks, oil sheen, herb texture, toasted or crisp edges where relevant. 50mm to 85mm lens feel, clean white balance, high local contrast, no haze, no grain, no blur. No text, no logo, no watermark, no packaging words.
+Premium contemporary studio food photography for Marcha, a modern Indian food lab. Hard direct flash lighting, crisp dark shadows, extremely sharp edges, deep focus, high-saturation color blocking, one solid matte background in a Marcha brand colour, minimalist composition with generous negative space reserved for typography. Do not use dual-colour, split, half-and-half, curved-block, or multi-panel backgrounds. Close-up edible vegetarian food action, realistic tactile food texture, fresh Indian pantry ingredients, modern global-fusion presentation using ingredients available in India. The food must look exactly as if it was made in reality: believable colour, shape, structure, portion, viscosity, gloss, spice flecks, oil sheen, herb texture, toasted or crisp edges where relevant. Name the food's texture and viscosity precisely: spoonable, pourable ribbon, slow drip, spreadable, set, airy, crumbly, crunchy, or crisp. 50mm to 85mm lens feel, clean white balance, high local contrast, no haze, no grain, no blur. No text, no logo, no watermark, no packaging words.
 ```
 
 ### Format Prompt Add-Ons
@@ -405,6 +405,18 @@ Use Inter, DM Sans, or a clean Helvetica-style sans-serif for:
 ## Color Rules
 
 Use no more than 3 active colors per post.
+
+Use one solid matte background colour per slide. Do not use dual-colour, split, half-and-half, curved-block, gradient, or multi-panel backgrounds. Different slides in the same carousel may use different brand colours.
+
+Pillar cover background colours:
+
+- Not Ketchup: Chilli Red `#D7382F`
+- India-Available Fusion: Turmeric Yellow `#F2B544`
+- Pantry To Product: Deep Teal `#0F6F78`
+- Healthy But Not Sad: Cream `#FFF4D8`
+- The Chutney Matrix: Ink Black `#17120F`
+- One Sauce, Five Foods: Deep Teal `#0F6F78`
+- Food Hero Shots: rotate one solid brand colour based on the hero food, never dual-colour.
 
 Main combinations:
 

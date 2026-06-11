@@ -74,6 +74,21 @@ Colors:
 - Turmeric Yellow: `#F2B544`
 - Ink Black: `#17120F`
 
+Background rules:
+- Use one solid matte background colour per slide.
+- Do not use dual-colour, split, half-and-half, curved-block, or multi-panel backgrounds.
+- Different slides in a carousel may use different Marcha brand colours, as long as each slide has one clean background colour.
+- The cover image for each content pillar should use a recurring pillar colour so the grid is easy to distinguish.
+
+Pillar cover colours:
+- Not Ketchup: Chilli Red `#D7382F`
+- India-Available Fusion: Turmeric Yellow `#F2B544`
+- Pantry To Product: Deep Teal `#0F6F78`
+- Healthy But Not Sad: Cream `#FFF4D8`
+- The Chutney Matrix: Ink Black `#17120F`
+- One Sauce, Five Foods: Deep Teal `#0F6F78`
+- Food Hero Shots: rotate one solid brand colour based on the hero food, never dual-colour.
+
 Typography:
 - Display: Paquito
 - Body: Inter / DM Sans / clean sans-serif
@@ -129,7 +144,9 @@ Every Marcha food visual must look as if the food was actually made in a studio.
 
 Rules:
 - realistic texture, colour, gloss, density, and portion size
+- realistic shape, structure, and ingredient-specific behaviour
 - sauce viscosity should match the ingredients
+- viscosity should be named before prompting: spoonable, pourable ribbon, slow drip, spreadable, set, airy, crumbly, crunchy, or crisp
 - fried, roasted, blended, creamy, crunchy, or fresh elements should look physically believable
 - Indian ingredients should look like their real-world versions
 - no impossible plating, fake-perfect food geometry, plastic-looking sauces, or fantasy colours
@@ -139,7 +156,8 @@ Rules:
 For image prompts, always include food-state details:
 - thick / pourable / glossy / chunky / creamy / roasted / charred / crisp / fresh
 - actual colour notes such as deep tomato red, Kashmiri chilli orange-red, pale makhani beige, herb green
-- realistic surface details such as oil sheen, spice flecks, seed texture, herb garnish, toasted edges
+- realistic shape notes such as smooth dome, torn edge, folded roll, spoon ridge, coarse crumble, crisp blister, or slow drip
+- realistic surface details such as oil sheen, spice flecks, seed texture, herb garnish, toasted edges, grain size, bubbles, separated oil, char, or crumb
 
 If the food would not look edible in real life, do not generate it.
 
@@ -271,7 +289,7 @@ Carousel output package:
 - research logic and realism notes
 
 Carousel visual rhythm:
-- Slide 1: close-up food action with editorial headline in negative space
+- Slide 1: close-up food action on the pillar's assigned single-colour background with editorial headline in negative space
 - Slide 2: concept/product logic as a clean menu-page layout
 - Slide 3: ingredient still life with thin callout labels
 - Slide 4: faceless hand action with short integrated process copy
