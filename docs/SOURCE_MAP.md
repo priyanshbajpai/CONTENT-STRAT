@@ -2,6 +2,16 @@
 
 This document tracks the model and dataset sources to use inside the FMCG research chat.
 
+## Marcha Master Sources
+
+Use these before any Marcha brand, content, carousel, reel, sauce, or FMCG concept work:
+
+- [`MARCHA_SOURCE_BANK.md`](../MARCHA_SOURCE_BANK.md) - canonical Marcha memory file with the creative, research, visual, copy, and output system.
+- [`FMCG_OS_THREAD_STARTER.md`](../FMCG_OS_THREAD_STARTER.md) - compact starter note for new Codex threads.
+- [`docs/marcha-system/`](marcha-system/README.md) - durable copy of the Marcha system docs that are mirrored from the local chat workspace.
+
+Working rule: Marcha work starts with research, then food/product realism, then copy and visuals. Clean visuals and text-placement guides stay separate.
+
 ## 1. Epicure Explorer
 
 Use for ingredient-level intelligence.

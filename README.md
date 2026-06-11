@@ -27,6 +27,16 @@ This repo is the durable strategy layer. The Codex chat workspace is the live mo
 - Global Gastronomic Culinary Dataset: global cuisine/category reference
 - Open Food Facts recipe-estimator-metrics: ingredient percentage estimation evaluation framework
 
+## Marcha Brand System
+
+Marcha is the content and brand layer for this workspace: an AI-first food content page that can evolve into a healthy Indian sauces and FMCG product brand.
+
+Before creating any Marcha concept, carousel, reel, single image, product idea, recipe, sauce, or FMCG research output, start with:
+
+- [Marcha Source Bank](MARCHA_SOURCE_BANK.md)
+- [FMCG-OS Thread Starter](FMCG_OS_THREAD_STARTER.md)
+- [Marcha System Docs](docs/marcha-system/README.md)
+
 ## Core Docs
 
 - [FMCG Research OS](docs/FMCG_RESEARCH_OS.md)
@@ -34,6 +44,7 @@ This repo is the durable strategy layer. The Codex chat workspace is the live mo
 - [Workspace Guide](docs/WORKSPACE_GUIDE.md)
 - [Source Map](docs/SOURCE_MAP.md)
 - [Research Prompts](docs/RESEARCH_PROMPTS.md)
+- [Marcha System](docs/marcha-system/README.md)
 
 ## Current Workflow
 
